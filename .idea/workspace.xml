@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e20c79a1-ece6-406a-8d2a-e12aed5bf65e" name="Changes" comment="комит">
       <change afterPath="$PROJECT_DIR$/src/SalesManager.java" afterDir="false" />
