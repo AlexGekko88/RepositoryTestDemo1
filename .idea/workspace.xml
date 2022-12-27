@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e20c79a1-ece6-406a-8d2a-e12aed5bf65e" name="Changes" comment="Поменял int на long">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="e20c79a1-ece6-406a-8d2a-e12aed5bf65e" name="Changes" comment=" Добавил расчёт обрезанного среднего" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672128033880</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=" Добавил расчёт обрезанного среднего">
+      <created>1672130140317</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672130140317</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +120,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="комит" />
     <MESSAGE value="Поменял int на long" />
-    <option name="LAST_COMMIT_MESSAGE" value="Поменял int на long" />
+    <MESSAGE value=" Добавил расчёт обрезанного среднего" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Добавил расчёт обрезанного среднего" />
   </component>
 </project>
