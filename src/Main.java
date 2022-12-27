@@ -3,14 +3,14 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int[] sales = {500, 1000, 560, 12000, 2500, 3450, 30120, 8900};
+        long[] sales = {500, 1000, 560, 12000, 2500, 3450, 30120, 8900};
         SalesManager salesManager = new SalesManager(sales);
         System.out.println("Самая крупная  продажа на " + salesManager.max() + " руб.");
 
-        int max = getMax(sales);
+        long max = getMax(sales);
         System.out.println("Maximum: " + max);
 
-        int min = getMin(sales);
+        long min = getMin(sales);
         System.out.println("Minimum: " + min);
 
         double avg = getAvg(sales);
@@ -20,8 +20,8 @@ public class Main {
         System.out.println("Trimmed mean: " + mean); // Расчёт обрезанного среднего. Среднее значение, за исключением max и min.
     }
 
-    public static int getMax(int[] inputArray) {
-        int maxValue = inputArray[0];
+    public static long getMax(long[] inputArray) {
+        long maxValue = inputArray[0];
         for (int i = 1; i < inputArray.length; i++) {
             if (inputArray[i] > maxValue) {
                 maxValue = inputArray[i];
@@ -30,8 +30,8 @@ public class Main {
         return maxValue;
     }
 
-    public static int getMin(int[] inputArray) {
-        int minValue = inputArray[0];
+    public static long getMin(long[] inputArray) {
+        long minValue = inputArray[0];
         for (int i = 1; i < inputArray.length; i++) {
             if (inputArray[i] < minValue) {
                 minValue = inputArray[i];
@@ -40,7 +40,7 @@ public class Main {
         return minValue;
     }
 
-    public static double getAvg(int[] inputArray) {
+    public static double getAvg(long[] inputArray) {
         double total = 0;
         double avg;
         for (int i = 0; i < inputArray.length; i++) {
@@ -49,9 +49,9 @@ public class Main {
         return avg = total / inputArray.length;
     }
 
-    public static double getTrim(int[] inputArray) {
-        int max = getMax(inputArray);
-        int min = getMin(inputArray);
+    public static double getTrim(long[] inputArray) {
+        long max = getMax(inputArray);
+        long min = getMin(inputArray);
         double sum = 0;
         for (int i = 0; i < inputArray.length; i++) {
             sum = sum + inputArray[i];
